@@ -1,0 +1,20 @@
+{
+  "name": "my-baking-recipe-nextjs",
+  "version": "0.0.1",
+  "description": "mybakingrecipe nextjs version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidYang2149/my-baking-recipe-nextjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/DavidYang2149/my-baking-recipe-nextjs/issues"
+  },
+  "homepage": "https://github.com/DavidYang2149/my-baking-recipe-nextjs#readme"
+}
