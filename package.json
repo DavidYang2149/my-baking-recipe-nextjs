@@ -2,19 +2,36 @@
   "name": "my-baking-recipe-nextjs",
   "version": "0.0.1",
   "description": "mybakingrecipe nextjs version",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DavidYang2149/my-baking-recipe-nextjs.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "mybakingrecipe",
+    "nextjs"
+  ],
+  "author": "davidyang2149",
   "license": "GPL",
   "bugs": {
     "url": "https://github.com/DavidYang2149/my-baking-recipe-nextjs/issues"
   },
-  "homepage": "https://github.com/DavidYang2149/my-baking-recipe-nextjs#readme"
+  "homepage": "https://github.com/DavidYang2149/my-baking-recipe-nextjs#readme",
+  "dependencies": {
+    "next": "12.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.7",
+    "@types/react": "17.0.34",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.3",
+    "typescript": "4.4.4"
+  }
 }
